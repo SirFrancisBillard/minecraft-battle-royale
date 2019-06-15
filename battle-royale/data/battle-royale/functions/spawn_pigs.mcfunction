@@ -1,0 +1,21 @@
+
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}
+summon pig ~ ~ ~ {Health:1,DeathLootTable:"battle-royale:entities/br_pig"}

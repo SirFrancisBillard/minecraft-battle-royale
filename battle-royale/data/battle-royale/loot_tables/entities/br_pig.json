@@ -1,0 +1,285 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:bow",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine 2 to make a Crossbow.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:arrow",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 12
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine 2 to make a Spectral Arrow.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_sword",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine 4 to make a Diamond Sword.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:leather_helmet",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine 4 to make an Iron Helmet.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:leather_chestplate",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine 4 to make an Iron Chestplate.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:leather_leggings",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine 4 to make Iron Leggings.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:leather_boots",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine 4 to make Iron Boots.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_apple",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine 4 to make an Enchanted Golden Apple.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Health Potion",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:healing\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Energy Drink",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:400}],CustomPotionColor:5507839}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:feather",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Hang Glider",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Allows the holder to glide.",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": "Combine 2 to make an Elytra.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[hang_glider]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:compass",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Loot Finder",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Will reveal nearby loot pigs when held.",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": "The effect can be seen by all players.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Tags:[loot_finder]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_nugget",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Chain Links",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Combine with Leather Armor for an upgrade.",
+									"color": "gray",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+            ]
+        }
+	]
+}
