@@ -39,6 +39,11 @@
 									"text": "Combine 2 to make a Spectral Arrow.",
 									"color": "gray",
 									"italic": false
+								},
+								{
+									"text": "Scrap cost: 4",
+									"color": "gray",
+									"italic": false
 								}
 							]
 						}
@@ -146,6 +151,11 @@
 							"lore": [
 								{
 									"text": "Combine 4 to make an Enchanted Golden Apple.",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": "Scrap cost: 2",
 									"color": "gray",
 									"italic": false
 								}
